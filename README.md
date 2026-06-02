@@ -275,3 +275,4 @@ If the assistant responds using structured critical analysis rather than simple 
 # License
 
 This project is released under the MIT License.
+See the LICENSE file for details.
