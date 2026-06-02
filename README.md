@@ -162,9 +162,105 @@ The framework rejects both blind validation and performative negativity.
 
 # Installation
 
-Load `auditor.skill` into any compatible skill-enabled LLM environment.
+The Auditor is distributed as a standalone `.skill` file.
+
+Because skill systems differ across platforms, installation depends on the environment being used.
+
+---
+
+## Web-Based LLM Interfaces
+
+For platforms that support custom instructions, system prompts, skills, agents, or projects:
+
+1. Open the platform's customization or configuration settings.
+2. Create a new custom skill, agent, project, or instruction set.
+3. Copy the contents of `auditor.skill`.
+4. Save the configuration.
+5. Start a new conversation.
+
+Examples may include:
+
+* ChatGPT Projects
+* Claude Projects
+* Gemini Gems
+* Custom AI workspaces
+* Other instruction-enabled interfaces
+
+Refer to the platform documentation for exact steps.
+
+---
+
+## IDE Integrations
+
+For AI assistants integrated into development environments:
+
+1. Locate the custom instructions, agent, rules, or skills configuration area.
+2. Import or paste the contents of `auditor.skill`.
+3. Save the configuration.
+4. Restart the assistant if required.
+
+Examples may include:
+
+* Cursor
+* Windsurf
+* Cline
+* Roo Code
+* Continue
+* Other AI-powered IDE extensions
+
+---
+
+## CLI-Based Assistants
+
+For command-line AI environments:
+
+1. Create a custom skill, system prompt, or instruction file according to the platform's documentation.
+2. Copy the contents of `auditor.skill`.
+3. Load the file through the CLI's configuration system.
+4. Verify the assistant recognizes the skill.
+
+Examples may include:
+
+* Claude Code
+* OpenAI Codex CLI
+* OpenCode
+* Aider
+* Other terminal-based AI tools
+
+---
+
+## Manual Usage
+
+If your platform does not support skills directly:
+
+1. Open `auditor.skill`.
+2. Copy its contents.
+3. Paste it into the system prompt, project instructions, or custom instructions section.
 
 The framework is self-contained and does not require external dependencies.
+
+---
+
+# Compatibility
+
+The Auditor is platform-agnostic.
+
+It is designed around behavioral instructions rather than platform-specific features.
+
+Any LLM environment capable of accepting structured instructions, custom prompts, skills, agents, rules, or project-level guidance should be able to use The Auditor.
+
+---
+
+# Verification
+
+After installation, test with:
+
+* "Audit this startup idea."
+* "What are the flaws in this architecture?"
+* "Give me a Level 2 audit of this roadmap."
+* "What could go wrong with this decision?"
+
+If the assistant responds using structured critical analysis rather than simple validation, the installation was successful.
 
 ---
 
